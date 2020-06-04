@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .submit {
+      input[type="submit"] {
         background-color: red;
+      }
+      input[type="password"] {
+        background-color: blue;
+      }
+      input {
+        border: 1px solid yellow;
       }
     </style>
   </head>
@@ -16,7 +22,7 @@
       <div class="box"></div>
       <div class="box">
         <input type="password" />
-        <input type="submit" class="submit" />
+        <input type="submit" />
       </div>
     </div>
   </body>
