@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is my review</title>
+    <style>
+      body,
+      html {
+        background-color: white;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #title {
+        color: rgb(177, 13, 226);
+        font-size: 50px;
+      }
+      #box1 {
+        font-size: 35px;
+      }
+
+      .box {
+        background-color: rgb(175, 229, 231);
+        margin: 10px;
+      }
+      .box3 {
+        background-color: rgb(175, 229, 231);
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .box2-child {
+        font-size: xx-large;
+        color: white;
+      }
+      .box3-child {
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        padding: 5px;
+        font-size: 30px;
+        color: rebeccapurple;
+        border: 2px solid black;
+        display: inline-block;
+      }
+      .box3-child:nth-child(2n + 1) {
+        background-color: rgba(223, 248, 248, 0.979);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box" id="box1">
+      <h1 align="center" id="title">This is review 1</h1>
+      <p align="center" id="paragraph">
+        <a href="http://naver.com" target="_blank">Go to Naver Link</a>
+      </p>
+      <p align="center">
+        <a href="01-mix-html-css/index.html" target="_blank">Go to #1</a>
+      </p>
+      <p align="center">
+        <a href="02-box-model/index.html" target="_blank">Go to #2</a>
+      </p>
+    </div>
+    <div class="box">
+      <div class="box2-child" align="center">
+        <span>Hellow</span>
+      </div>
+      <div class="box2-child" align="right">
+        <span>HiHi</span>
+      </div>
+      <div class="box2-child">
+        <article>blahblah</article>
+      </div>
+      <div class="box2-child" align="center">
+        <header>Hi Hi Hellow Hellow blahblahblahblah</header>
+      </div>
+    </div>
+    <div class="box3">
+      <div class="box3-child">1</div>
+      <div class="box3-child">2</div>
+      <div class="box3-child">3</div>
+      <div class="box3-child">4</div>
+      <div class="box3-child">5</div>
+      <div class="box3-child">6</div>
+      <div class="box3-child">7</div>
+      <div class="box3-child">8</div>
+      <div class="box3-child">9</div>
+      <div class="box3-child">10</div>
+      <div class="box3-child">11</div>
+      <div class="box3-child">12</div>
+      <div class="box3-child">13</div>
+      <div class="box3-child">14</div>
+      <div class="box3-child">15</div>
+      <div class="box3-child">16</div>
+      <div class="box3-child">17</div>
+      <div class="box3-child">18</div>
+      <div class="box3-child">19</div>
+      <div class="box3-child">20</div>
+    </div>
+  </body>
+</html>
