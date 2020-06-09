@@ -6,10 +6,14 @@
     <title>Transformation</title>
     <style>
       .box {
-        transform: rotate(20deg);
         width: 500px;
         height: 500px;
         background-color: red;
+        transition: transform 5s ease-in-out;
+      }
+      .box:hover {
+        transform: rotate(20deg);
+        background-color: rebeccapurple;
       }
     </style>
   </head>
