@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transitions practice</title>
+    <style>
+      .box {
+        background-color: aqua;
+        color: black;
+        height: 50px;
+        width: 300px;
+        padding: 100px;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        transition: all 5s ease-in-out;
+      }
+      .box:hover {
+        background-color: purple;
+        width: 150px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      Hover to see<br />
+      the transition<br />
+    </div>
+  </body>
+</html>
