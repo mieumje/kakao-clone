@@ -9,12 +9,14 @@
         width: 100px;
         height: 100px;
         background-color: red;
-        transform: transform 5s ease-in-out;
+        animation: 1.5s scaleAndRotateSquare ease-in-out;
       }
       @keyframes scaleAndRotateSquare {
         from {
+          transform: none;
         }
         to {
+          transform: rotate(1turn) scale(5, 5);
         }
       }
     </style>
